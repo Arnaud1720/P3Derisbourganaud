@@ -7,12 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b879062-ebb0-475d-bf9a-ebb7cd85550c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/p3Arnaud_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Procèdure pour lancer le Programme.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/p3Arnaud/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/p3Arnaud/com/arnaud/Poo/Humain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/p3Arnaud/com/arnaud/Poo/Ia.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/p3Arnaud/com/arnaud/Poo/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/p3Arnaud/com/arnaud/Poo/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/p3Arnaud/com/arnaud/Poo/SelectGameMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/p3Arnaud/com/arnaud/Poo/SelectGameMode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/p3Arnaud/com/arnaud/Poo/modes/Challengeur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/p3Arnaud/com/arnaud/Poo/modes/Challengeur.class" afterDir="false" />
@@ -20,8 +15,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/p3Arnaud/com/arnaud/Poo/modes/Duel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/p3Arnaud/com/arnaud/Poo/modes/Duel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/game.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/com/arnaud/Poo/GestionJeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/arnaud/Poo/GestionJeu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/com/arnaud/Poo/Humain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/com/arnaud/Poo/Ia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/arnaud/Poo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/arnaud/Poo/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/com/arnaud/Poo/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/arnaud/Poo/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/com/arnaud/Poo/SelectGameMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/arnaud/Poo/SelectGameMode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/com/arnaud/Poo/modes/Challengeur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/arnaud/Poo/modes/Challengeur.java" afterDir="false" />
@@ -172,25 +166,25 @@
     </state>
     <state x="467" y="198" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583427971691" />
     <state x="584" y="280" width="731" height="514" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1582135356740" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1583439474484">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1583522160083">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583439474484" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583522160083" />
     <state width="1870" height="201" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1582195882332" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1583439474484">
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1583522160083">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583439474484" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583522160083" />
     <state width="1870" height="201" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1582195882332" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1583439474484">
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1583522160083">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583439474484" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583522160083" />
     <state width="1870" height="201" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1582195882331" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1583439474484">
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1583522160083">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583439474484" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583522160083" />
     <state width="1870" height="201" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1582195882332" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1583106417500">
       <screen x="0" y="0" width="1536" height="824" />
@@ -217,10 +211,10 @@
     </state>
     <state x="354" y="70" width="914" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583428079081" />
     <state x="443" y="116" width="1024" height="844" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1582188545808" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1583436760717">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1583519408651">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583436760717" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583519408651" />
     <state x="475" y="41" key="refactoring.ChangeSignatureDialog" timestamp="1582558126510">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

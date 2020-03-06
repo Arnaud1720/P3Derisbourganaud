@@ -4,7 +4,7 @@ package com.arnaud.Poo;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class GestionJeu {
+public abstract class GestionJeu {
 
   public String genererConbinaison (){
 
@@ -43,11 +43,16 @@ public class GestionJeu {
     String reponse = "";
 
     Scanner sc = new Scanner(System.in);
-    boolean saisieOk;
+    boolean saisieOk=false;
     do {
       try {
         reponse = sc.nextLine();
-        saisieOk = verifierSaisie(reponse) && reponse.length() == GestionConfiguration.tailleCode;
+        if(reponse.split("").length!=GestionConfiguration.tailleCode){
+          System.out.println("vous n'avez pas saisi "+GestionConfiguration.tailleCode +" chiffres");
+        }else{
+          saisieOk = verifierSaisie(reponse);
+        }
+
       } catch (InputMismatchException e) {
         sc.next();
         saisieOk = false;

@@ -6,24 +6,12 @@ import org.apache.logging.log4j.Logger;
 
 
 
-public class Defenseur extends SelectGameMode {
+public class Defenseur extends GestionJeu {
   
   private static final Logger logger = LogManager.getLogger(Defenseur.class);
   
   public void humainSwitchDefenseur(Player humain) {
-    GestionJeu gestionJeu = new GestionJeu();
-    Player ia = new Player("CPU",5) {
-      @Override
-      public String getNom() {
-        return super.getNom();
-      }
-
-      @Override
-      public int getVie() {
-        return super.getVie();
-      }
-    };
-
+    Player ia = new Player("CPU",5);
     String reponse = "";
     String modele = "";
     
@@ -32,7 +20,7 @@ public class Defenseur extends SelectGameMode {
       " chiffre(s) \r\nL'intelligence artificielle de l’ordinateur doit faire une proposition d’une combinaison de X chiffres (c’est le rôle attaquant).");
     
     // Le joueur définie une combinaison de x chiffre
-    String combinaisonJoueur = gestionJeu.definirCombinaison();
+    String combinaisonJoueur = this.definirCombinaison();
     humain.setVie(GestionConfiguration.nbrEssaisMAX); // TODO add Player class instead of Humain(finish)
     
     
@@ -49,13 +37,13 @@ public class Defenseur extends SelectGameMode {
       System.out.println("Elle propose une combinaison de " + GestionConfiguration.tailleCode + " chiffre(s)");
       
       // génération d'une réponse par l'IA et affichage dans la console
-      reponse = gestionJeu.genererReponse(reponse,modele);
+      reponse = this.genererReponse(reponse,modele);
       
       System.out.println("Définissez un modele pour chaques chiffres avec les symbôles +, - et = :");
       System.out.println(reponse);
       
       // comparaison de la réponse avec la combinaison à trouver pour générer un modèle
-      modele = gestionJeu.definirModele();
+      modele = this.definirModele();
       humain.setVie(humain.getVie() - 1);
       
     } while (humain.getVie() != 0 && !combinaisonJoueur.equalsIgnoreCase(reponse));

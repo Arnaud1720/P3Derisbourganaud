@@ -1,6 +1,6 @@
 package com.arnaud.Poo;
 
-public abstract class Player {
+public  class Player {
     /**
      *
      * @param player

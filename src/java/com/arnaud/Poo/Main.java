@@ -14,8 +14,8 @@ public class Main {
 
         // le joueur Selectione un mode de jeu
         System.out.println("Veillez selectionner un mode de jeu: ");
-        SelectGameMode selectGameMode = new SelectGameMode();
-        selectGameMode.runMenu();
+
+        SelectGameMode.runMenu();
         
 
     }

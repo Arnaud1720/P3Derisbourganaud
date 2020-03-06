@@ -5,7 +5,7 @@ import com.arnaud.Poo.modes.Defenseur;
 import com.arnaud.Poo.modes.Duel;
 import java.util.Scanner;
 
-public class SelectGameMode {
+public  class SelectGameMode {
 
     static final int CHALLENGER = 1;
     static final int DEFENSEUR = 2;
@@ -13,7 +13,7 @@ public class SelectGameMode {
     static final int SORTIR = 4;
     public static Scanner sc = new Scanner(System.in);
     
-    public void runMenu() {
+    public static void runMenu() {
         
         Player humain = new Player("Arnaud", 0) {
         };

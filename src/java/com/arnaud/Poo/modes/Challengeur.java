@@ -8,23 +8,13 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 
-public class Challengeur extends SelectGameMode {
+public class Challengeur extends GestionJeu {
   private static final Logger logger = LogManager.getLogger(Challengeur.class);
 
   public void humainSwitchChallengeur(Player player) {
-    GestionJeu gestionJeu = new GestionJeu();
-    Player humain = new Player("Arnaud",10) {
-      @Override
-      public int getVie() {
-        return super.getVie();
-      }
 
-      @Override
-      public String getNom() {
-        return super.getNom();
-      }
-    };
-    String reponse = String.valueOf(Integer.parseInt(""));
+    Player humain = new Player("Arnaud",10);
+    String reponse = "";
     String modele = "";
 
     logger.info("Vous avez choisi le mode Challenger ");
@@ -36,7 +26,7 @@ public class Challengeur extends SelectGameMode {
         "Vous avez le rôle d'attaquant vous devez faire une proposition de 4 chiffre");
 
     // L'IA genere une combinaison de x chiffre
-    String combinaisonIa = gestionJeu.genererConbinaison();
+    String combinaisonIa = this.genererConbinaison();
     humain.setVie(GestionConfiguration.nbrEssaisMAX);
 
     do {
@@ -54,10 +44,10 @@ public class Challengeur extends SelectGameMode {
       }
 
       // saisie d'une réponse par le joueur
-      reponse = gestionJeu.definirCombinaison();
+      reponse = this.definirCombinaison();
 
       // comparaison de la réponse avec la combinaison à trouver pour générer un modèle
-      modele = gestionJeu.comparerCombinaison(combinaisonIa, reponse);
+      modele = this.comparerCombinaison(combinaisonIa, reponse);
       humain.setVie(humain.getVie() - 1);
 
 
