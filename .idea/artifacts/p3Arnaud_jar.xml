@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="p3Arnaud:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/p3Arnaud_jar</output-path>
+    <root id="archive" name="p3Arnaud.jar">
+      <element id="module-output" name="p3Arnaud" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/log4j-core-2.13.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/log4j-api-2.13.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

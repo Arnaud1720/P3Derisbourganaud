@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="p3Arnaud:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b879062-ebb0-475d-bf9a-ebb7cd85550c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/p3Arnaud_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procèdure pour lancer le Programme.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/p3Arnaud/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/p3Arnaud/com/arnaud/Poo/Humain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/p3Arnaud/com/arnaud/Poo/Ia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/p3Arnaud/com/arnaud/Poo/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/p3Arnaud/com/arnaud/Poo/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/p3Arnaud/com/arnaud/Poo/SelectGameMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/p3Arnaud/com/arnaud/Poo/SelectGameMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/p3Arnaud/com/arnaud/Poo/modes/Challengeur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/p3Arnaud/com/arnaud/Poo/modes/Challengeur.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/p3Arnaud/com/arnaud/Poo/modes/Defenseur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/p3Arnaud/com/arnaud/Poo/modes/Defenseur.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/p3Arnaud/com/arnaud/Poo/modes/Duel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/p3Arnaud/com/arnaud/Poo/modes/Duel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/game.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/arnaud/Poo/GestionJeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/arnaud/Poo/GestionJeu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/arnaud/Poo/Humain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/arnaud/Poo/Ia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/arnaud/Poo/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/arnaud/Poo/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/arnaud/Poo/SelectGameMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/arnaud/Poo/SelectGameMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/arnaud/Poo/modes/Challengeur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/arnaud/Poo/modes/Challengeur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/arnaud/Poo/modes/Defenseur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/arnaud/Poo/modes/Defenseur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/arnaud/Poo/modes/Duel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/arnaud/Poo/modes/Duel.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Y2K21tH372vLpOeYaiOl9PxwyK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15046604" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/resources" />
+      <recent name="$PROJECT_DIR$/src/com/nanoo/p3" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.arnaud.Poo.Main" />
+      <module name="p3Arnaud" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java.Poo.Main" />
+      <module name="p3Arnaud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.Poo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.arnaud.Poo.Main" />
+      <module name="p3Arnaud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arnaud.Poo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b879062-ebb0-475d-bf9a-ebb7cd85550c" name="Default Changelist" comment="" />
+      <created>1582135038240</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582135038240</updated>
+      <workItem from="1582135040014" duration="9449000" />
+      <workItem from="1582188277474" duration="7687000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1582550300775">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1582550300775" />
+    <state x="418" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582188699698">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="418" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1582188699698" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1583328350567">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1583328350567" />
+    <state x="542" y="208" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583427957458">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="542" y="208" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1583427957458" />
+    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582543348104">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1582543348104" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583327562462">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1583327562462" />
+    <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1583437360605">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1583437360605" />
+    <state x="467" y="198" width="731" height="514" key="FileChooserDialogImpl" timestamp="1583427971691">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="467" y="198" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583427971691" />
+    <state x="584" y="280" width="731" height="514" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1582135356740" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1583439474484">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583439474484" />
+    <state width="1870" height="201" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1582195882332" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1583439474484">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583439474484" />
+    <state width="1870" height="201" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1582195882332" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1583439474484">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583439474484" />
+    <state width="1870" height="201" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1582195882331" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1583439474484">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583439474484" />
+    <state width="1870" height="201" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1582195882332" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1583106417500">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583106417500" />
+    <state width="1870" height="329" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1582195683330" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1583106417500">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1583106417500" />
+    <state width="1870" height="329" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1582195683330" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1583106417500">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1583106417500" />
+    <state width="1870" height="329" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1582195683329" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1583106417500">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1583106417500" />
+    <state width="1870" height="329" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1582195683330" />
+    <state x="354" y="70" width="914" height="707" key="SettingsEditor" timestamp="1583428079081">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="354" y="70" width="914" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583428079081" />
+    <state x="443" y="116" width="1024" height="844" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1582188545808" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1583436760717">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583436760717" />
+    <state x="475" y="41" key="refactoring.ChangeSignatureDialog" timestamp="1582558126510">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="475" y="41" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1582558126510" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1582798697682">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1582798697682" />
+    <state x="498" y="164" width="672" height="531" key="search.everywhere.popup" timestamp="1583147132835">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="164" width="672" height="531" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1583147132835" />
+    <state x="623" y="237" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1582146663654" />
+  </component>
+</project>
