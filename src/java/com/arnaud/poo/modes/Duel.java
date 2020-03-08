@@ -1,6 +1,6 @@
-package com.arnaud.Poo.modes;
+package com.arnaud.poo.modes;
 
-import com.arnaud.Poo.*;
+import com.arnaud.poo.*;
 
 public class Duel extends GestionJeu {
 
@@ -10,7 +10,7 @@ public class Duel extends GestionJeu {
 
 
 
-    public void HumainVsIa() {
+    public void humainVsIa() {
         String modeleIa = "";
         String modeleHumain = "";
         String reponseIa = "";

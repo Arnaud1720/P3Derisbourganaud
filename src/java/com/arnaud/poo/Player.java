@@ -1,4 +1,4 @@
-package com.arnaud.Poo;
+package com.arnaud.poo;
 
 public  class Player {
     /**

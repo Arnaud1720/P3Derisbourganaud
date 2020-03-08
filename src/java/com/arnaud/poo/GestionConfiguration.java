@@ -1,4 +1,4 @@
-package com.arnaud.Poo;
+package com.arnaud.poo;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

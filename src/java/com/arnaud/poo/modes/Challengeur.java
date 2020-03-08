@@ -1,9 +1,9 @@
-package com.arnaud.Poo.modes;
+package com.arnaud.poo.modes;
 
-import com.arnaud.Poo.GestionConfiguration;
-import com.arnaud.Poo.GestionJeu;
-import com.arnaud.Poo.Player;
-import com.arnaud.Poo.SelectGameMode;
+import com.arnaud.poo.GestionConfiguration;
+import com.arnaud.poo.GestionJeu;
+import com.arnaud.poo.Player;
+import com.arnaud.poo.SelectGameMode;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

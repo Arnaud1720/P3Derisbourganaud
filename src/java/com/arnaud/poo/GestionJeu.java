@@ -1,4 +1,4 @@
-package com.arnaud.Poo;
+package com.arnaud.poo;
 
 
 import java.util.InputMismatchException;

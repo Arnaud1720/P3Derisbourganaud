@@ -1,8 +1,8 @@
-package com.arnaud.Poo;
+package com.arnaud.poo;
 
-import com.arnaud.Poo.modes.Challengeur;
-import com.arnaud.Poo.modes.Defenseur;
-import com.arnaud.Poo.modes.Duel;
+import com.arnaud.poo.modes.Challengeur;
+import com.arnaud.poo.modes.Defenseur;
+import com.arnaud.poo.modes.Duel;
 import java.util.Scanner;
 
 public  class SelectGameMode {
