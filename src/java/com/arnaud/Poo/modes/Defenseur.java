@@ -18,21 +18,15 @@ public class Defenseur extends GestionJeu {
     System.out.println("vous avez choisi le mode défenseur");
     System.out.println("vous avez cette fois le rôle de défenseur vous devez saisir une combinaison de " + GestionConfiguration.tailleCode +
       " chiffre(s) \r\nL'intelligence artificielle de l’ordinateur doit faire une proposition d’une combinaison de X chiffres (c’est le rôle attaquant).");
-    
+
     // Le joueur définie une combinaison de x chiffre
     String combinaisonJoueur = this.definirCombinaison();
     humain.setVie(GestionConfiguration.nbrEssaisMAX); // TODO add Player class instead of Humain(finish)
-    
-    
+    // affichage de la solution dans le mode developpeur
+
     do {
       System.out.println();
-      
-      // affichage de la solution dans le mode developpeur
-      if (GestionConfiguration.devMode) {
-        System.out.println("mode développeur activé ! Combinaison secrete que l'IA doit trouver : "
-          + combinaisonJoueur);
-      }
-      
+
       System.out.println("L'IA a " + ia.getVie() + "vie(s)");
       System.out.println("Elle propose une combinaison de " + GestionConfiguration.tailleCode + " chiffre(s)");
       
@@ -44,12 +38,16 @@ public class Defenseur extends GestionJeu {
       
       // comparaison de la réponse avec la combinaison à trouver pour générer un modèle
       modele = this.definirModele();
-      humain.setVie(humain.getVie() - 1);
-      
+      ia.setVie(ia.getVie() - 1);
+      if(ia.getVie()==0){
+        System.out.println("Vous avez gagner l'ia n'a pas trouver la combinaison retour au menu");
+        SelectGameMode.runMenu();
+      }
     } while (humain.getVie() != 0 && !combinaisonJoueur.equalsIgnoreCase(reponse));
 
     if(combinaisonJoueur.equalsIgnoreCase(reponse)){
       System.out.println("Bravo "+ ia.getNom() +" vous avez gagner ! "+ " la combinaison secrête de l'ia était "+combinaisonJoueur);
+      SelectGameMode.runMenu();
     }
   }
   

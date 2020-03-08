@@ -7,13 +7,16 @@ import com.arnaud.Poo.SelectGameMode;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.util.Scanner;
+
 
 public class Challengeur extends GestionJeu {
   private static final Logger logger = LogManager.getLogger(Challengeur.class);
+  public static Scanner sc = new Scanner(System.in);
 
   public void humainSwitchChallengeur(Player player) {
 
-    Player humain = new Player("Arnaud",10);
+    Player humain = new Player("Arnaud",5);
     String reponse = "";
     String modele = "";
 
@@ -28,13 +31,13 @@ public class Challengeur extends GestionJeu {
     // L'IA genere une combinaison de x chiffre
     String combinaisonIa = this.genererConbinaison();
     humain.setVie(GestionConfiguration.nbrEssaisMAX);
+    // affichage de la solution dans le mode developpeur
+    if (GestionConfiguration.devMode==true) {
+      System.out.println("mode développeur activé ! Combinaison secrete l'IA : " + combinaisonIa);
+    }
 
     do {
 
-      // affichage de la solution dans le mode developpeur
-      if (GestionConfiguration.devMode) {
-        System.out.println("mode développeur activé ! Combinaison secrete l'IA : " + combinaisonIa);
-      }
 
       System.out.println("Vous avez " + humain.getVie() + "vie(s)");
       System.out.println("Proposez une combinaison de " + GestionConfiguration.tailleCode + " chiffre(s)");
@@ -49,13 +52,17 @@ public class Challengeur extends GestionJeu {
       // comparaison de la réponse avec la combinaison à trouver pour générer un modèle
       modele = this.comparerCombinaison(combinaisonIa, reponse);
       humain.setVie(humain.getVie() - 1);
-
+      if(humain.getVie()==0){
+        System.out.println("vous avez perdu ");
+        SelectGameMode.runMenu();
+      }
 
     } while (humain.getVie() != 0 && !combinaisonIa.equalsIgnoreCase(reponse));
 
     // TODO display victory text or defeat text and give the good answer
     if(combinaisonIa.equalsIgnoreCase(reponse)){
       System.out.println("Bravo "+humain.getNom() +" vous avez gagner ! "+ " la combinaison secrête de l'ia était "+combinaisonIa);
+      SelectGameMode.runMenu();
     }
   }
   
