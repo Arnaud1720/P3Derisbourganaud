@@ -46,19 +46,18 @@ public abstract class GestionJeu {
 
         Scanner sc = new Scanner(System.in);
         boolean saisieOk = false;
-        boolean saisieOKc = false;
         do {
             try {
                 reponse = sc.nextLine();
-                if (reponse.split("").length != GestionConfiguration.tailleCode) {
-                    System.out.println("vous n'avez pas saisi " + GestionConfiguration.tailleCode + " chiffres");
-                } else {
-                    saisieOk = verifierSaisie(reponse);
+                saisieOk = verifierSaisie(reponse);
+                if(!saisieOk){
+                  System.out.println("erreur de saisie saisir uniquement "+GestionConfiguration.tailleCode+" Chiffre ");
                 }
 
             } catch (InputMismatchException e) {
                 sc.next();
                 saisieOk = false;
+
             }
         } while (!saisieOk);
 
@@ -93,7 +92,7 @@ public abstract class GestionJeu {
                             rangeMin[i] = nouvelleBorne + 1;
                         // je génére un random dans le rage min et max, et le range s'affine a chaque nouvelle  répose de l ia
 //                        temp = String.valueOf(rangeMin[i] + (int) (Math.random() * ((rangeMax[i] - rangeMin[i]) + 1)));
-                       randomInt = ThreadLocalRandom.current().nextInt(rangeMin[i], rangeMax[i]);
+                         randomInt = ThreadLocalRandom.current().nextInt(rangeMin[i], rangeMax[i]);
                         nouvelleReponse.append(randomInt);
                         break;
 
@@ -138,7 +137,7 @@ public abstract class GestionJeu {
 
     public boolean verifierSaisie(String reponse) {
 
-        return reponse.matches("[+-]?\\d*(\\.\\d+\"[abc]\")?"); // return false if response has not only digits
+        return reponse.matches("[+-]?\\d*(\\.\\d+\"[abc]\")?" )&&(reponse.length()==GestionConfiguration.tailleCode); // return false if response has not only digits
 
     }
 

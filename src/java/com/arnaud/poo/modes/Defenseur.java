@@ -25,25 +25,32 @@ public class Defenseur extends GestionJeu {
     // affichage de la solution dans le mode developpeur
 
     do {
-      System.out.println();
+      try {
 
-      System.out.println("L'IA a " + ia.getVie() + "vie(s)");
-      System.out.println("Elle propose une combinaison de " + GestionConfiguration.tailleCode + " chiffre(s)");
-      
-      // génération d'une réponse par l'IA et affichage dans la console
-      reponse = this.genererReponse(reponse,modele);
-      
-      System.out.println("Définissez un modele pour chaques chiffres avec les symbôles +, - et = :");
-      System.out.println(reponse);
-      
-      // comparaison de la réponse avec la combinaison à trouver pour générer un modèle
-      modele = this.definirModele();
-      ia.setVie(ia.getVie() - 1);
-      if(ia.getVie()==0){
-        System.out.println("Vous avez gagner l'ia n'a pas trouver la combinaison retour au menu");
+
+        System.out.println();
+
+        System.out.println("L'IA a " + ia.getVie() + "vie(s)");
+        System.out.println("Elle propose une combinaison de " + GestionConfiguration.tailleCode + " chiffre(s)");
+
+        // génération d'une réponse par l'IA et affichage dans la console
+        reponse = this.genererReponse(reponse, modele);
+
+        System.out.println("Définissez un modele pour chaques chiffres avec les symbôles +, - et = :");
+        System.out.println(reponse);
+
+        // comparaison de la réponse avec la combinaison à trouver pour générer un modèle
+        modele = this.definirModele();
+        ia.setVie(ia.getVie() - 1);
+        if (ia.getVie() == 0) {
+          System.out.println("Vous avez gagner l'ia n'a pas trouver la combinaison retour au menu");
+          SelectGameMode.runMenu();
+        }
+      }catch (IllegalArgumentException e){
+        System.out.println("vous avez fait une erreur de saisie lié au model vous êtez hors de borne minimal et maximam");
         SelectGameMode.runMenu();
       }
-    } while (humain.getVie() != 0 && !combinaisonJoueur.equalsIgnoreCase(reponse));
+      } while (humain.getVie() != 0 && !combinaisonJoueur.equalsIgnoreCase(reponse)) ;
 
     if(combinaisonJoueur.equalsIgnoreCase(reponse)){
       System.out.println("Bravo "+ ia.getNom() +" vous avez gagner ! "+ " la combinaison secrête de l'ia était "+combinaisonJoueur);

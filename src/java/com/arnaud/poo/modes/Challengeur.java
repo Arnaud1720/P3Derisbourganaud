@@ -53,7 +53,7 @@ public class Challengeur extends GestionJeu {
       modele = this.comparerCombinaison(combinaisonIa, reponse);
       humain.setVie(humain.getVie() - 1);
       if(humain.getVie()==0){
-        System.out.println("vous avez perdu ");
+        System.out.println("vous avez perdu la combinaison a trouver était  " +combinaisonIa);
         SelectGameMode.runMenu();
       }
 
@@ -61,7 +61,7 @@ public class Challengeur extends GestionJeu {
 
     // TODO display victory text or defeat text and give the good answer
     if(combinaisonIa.equalsIgnoreCase(reponse)){
-      System.out.println("Bravo "+humain.getNom() +" vous avez gagner ! "+ " la combinaison secrête de l'ia était "+combinaisonIa);
+      System.out.println("Bravo "+humain.getNom() +" vous avez gagner ! ");
       SelectGameMode.runMenu();
     }
   }

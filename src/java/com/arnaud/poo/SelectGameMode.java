@@ -39,7 +39,7 @@ public  class SelectGameMode {
             case (DUEL):
                 Duel duel = new Duel();
                 System.out.println("vous avez choisi le mode Dueliste L'IA est vous même jouer au tour par tour le premier a avoir trouver la combinaison a gagner");
-                duel.HumainVsIa();
+                duel.humainVsIa();
                 break;
             case (SORTIR):
                 System.out.println("au revoir "+humain.getNom());
