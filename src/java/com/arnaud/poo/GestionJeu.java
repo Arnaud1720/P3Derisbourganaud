@@ -3,9 +3,37 @@ package com.arnaud.poo;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
-import java.util.concurrent.ThreadLocalRandom;
 
-public abstract class GestionJeu {
+public  class GestionJeu {
+
+
+    //TODO faire en sorte que tailleCode soit pris en compte dans le tableau ou crée une arraylist qui initialise le nombre de saisie
+    public static int[] rangeMin = new int[GestionConfiguration.tailleCode];
+    public static int[] rangeMax = new int[GestionConfiguration.tailleCode];
+
+    public GestionJeu() {
+        init();
+    }
+
+    public void init(){
+            initRangeMax();
+            initRangeMin();
+
+    }
+
+    public void initRangeMin() {
+
+        for (int i = 0; i < GestionConfiguration.tailleCode; i++) {
+            rangeMin[i] = 0;
+        }
+    }
+
+    public void initRangeMax() {
+
+        for (int i = 0; i < GestionConfiguration.tailleCode; i++) {
+            rangeMax[i] = 9;
+        }
+    }
 
     public String genererConbinaison() {
 
@@ -50,8 +78,8 @@ public abstract class GestionJeu {
             try {
                 reponse = sc.nextLine();
                 saisieOk = verifierSaisie(reponse);
-                if(!saisieOk){
-                  System.out.println("erreur de saisie saisir uniquement "+GestionConfiguration.tailleCode+" Chiffre ");
+                if (!saisieOk) {
+                    System.out.println("erreur de saisie saisir uniquement " + GestionConfiguration.tailleCode + " Chiffre ");
                 }
 
             } catch (InputMismatchException e) {
@@ -66,11 +94,12 @@ public abstract class GestionJeu {
     }
 
     public String genererReponse(String reponse, String modele) {
+
+
         StringBuilder nouvelleReponse = new StringBuilder();
         char[] caractereModele = modele.toCharArray();
         char[] caractereReponse = reponse.toCharArray();
-        int[] rangeMin = new int[]{0, 0, 0, 0};
-        int[] rangeMax = new int[]{9, 9, 9, 9};
+
         int i;
         int randomInt;
 
@@ -89,20 +118,19 @@ public abstract class GestionJeu {
 
                     case '+':
                         if (rangeMin[i] < nouvelleBorne)
-                            rangeMin[i] = nouvelleBorne + 1;
+                            rangeMin[i] = nouvelleBorne;
                         // je génére un random dans le rage min et max, et le range s'affine a chaque nouvelle  répose de l ia
 //                        temp = String.valueOf(rangeMin[i] + (int) (Math.random() * ((rangeMax[i] - rangeMin[i]) + 1)));
-                         randomInt = ThreadLocalRandom.current().nextInt(rangeMin[i], rangeMax[i]);
+                        randomInt = (rangeMin[i] + rangeMax[i]) / 2;
                         nouvelleReponse.append(randomInt);
                         break;
 
                     case '-':
                         if (rangeMax[i] > nouvelleBorne)
-                            rangeMax[i] = nouvelleBorne - 1;
+                            rangeMax[i] = nouvelleBorne;
                         // retourne un chiffre médiant par rapport a la réponse précédente
-                       randomInt = ThreadLocalRandom.current().nextInt(rangeMin[i], rangeMax[i]);
-
-                      nouvelleReponse.append(randomInt);
+                        randomInt = (rangeMin[i] + rangeMax[i]) / 2;
+                        nouvelleReponse.append(randomInt);
                         break;
 
                     default:
@@ -137,7 +165,7 @@ public abstract class GestionJeu {
 
     public boolean verifierSaisie(String reponse) {
 
-        return reponse.matches("[+-]?\\d*(\\.\\d+\"[abc]\")?" )&&(reponse.length()==GestionConfiguration.tailleCode); // return false if response has not only digits
+        return reponse.matches("[+-]?\\d*(\\.\\d+\"[abc]\")?") && (reponse.length() == GestionConfiguration.tailleCode); // return false if response has not only digits
 
     }
 
@@ -147,5 +175,6 @@ public abstract class GestionJeu {
         return reponse.matches("^[-+=]*$"); // return false if response has not only + , - or =
 
     }
+
 
 }

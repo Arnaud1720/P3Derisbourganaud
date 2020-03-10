@@ -5,7 +5,7 @@ import org.apache.logging.log4j.Logger;
 import java.util.ResourceBundle;
 
 
-public class GestionConfiguration {
+public abstract class GestionConfiguration {
     private static final Logger logger = LogManager.getLogger(GestionConfiguration.class);
     static ResourceBundle configuration = ResourceBundle.getBundle("config");
     
