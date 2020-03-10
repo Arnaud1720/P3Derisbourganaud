@@ -6,17 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b879062-ebb0-475d-bf9a-ebb7cd85550c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/p3Arnaud/com/arnaud/Poo/GestionJeu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/p3Arnaud/com/arnaud/Poo/GestionJeu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/p3Arnaud/com/arnaud/Poo/modes/Defenseur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/p3Arnaud/com/arnaud/Poo/modes/Defenseur.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/p3Arnaud/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/p3Arnaud/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/game.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/com/arnaud/poo/GestionConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/arnaud/poo/GestionConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/com/arnaud/poo/GestionJeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/arnaud/poo/GestionJeu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/com/arnaud/poo/modes/Defenseur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/arnaud/poo/modes/Defenseur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/config.properties" afterDir="false" />
-    </list>
+    <list default="true" id="8b879062-ebb0-475d-bf9a-ebb7cd85550c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -241,24 +231,11 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/java/com/arnaud/poo/GestionJeu.java</url>
-          <line>23</line>
-          <properties class="com.arnaud.poo.GestionJeu" method="initRangeMin">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/java/com/arnaud/poo/GestionJeu.java</url>
           <line>95</line>
-          <properties class="com.arnaud.poo.GestionJeu" method="genererReponse">
+          <properties class="com.arnaud.poo.GestionJeu">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/java/com/arnaud/poo/modes/Defenseur.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
