@@ -3,7 +3,7 @@ package com.arnaud.poo;
 public class Main {
     
     public static void main(String[] args) {
-        
+        SelectGameMode selectGameMode = new SelectGameMode();
         //affiche la configuration du joueur en début de jeu
         GestionConfiguration.afficheConfiguration();
 
@@ -16,7 +16,7 @@ public class Main {
         System.out.println("Veillez selectionner un mode de jeu: ");
 
         SelectGameMode.runMenu();
-        
+
 
     }
     

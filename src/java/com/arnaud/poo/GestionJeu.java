@@ -4,7 +4,7 @@ package com.arnaud.poo;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public  class GestionJeu {
+public abstract   class GestionJeu {
 
 
     //TODO faire en sorte que tailleCode soit pris en compte dans le tableau ou crée une arraylist qui initialise le nombre de saisie
