@@ -10,12 +10,16 @@ public class Defenseur extends GestionJeu {
 
   private static final Logger logger = LogManager.getLogger(Defenseur.class);
 
-  public void humainSwitchDefenseur(Player humain) {
+    public Defenseur() {
+        super();
+    }
+
+    public void humainSwitchDefenseur(Player humain) {
     Player ia = new Player("CPU",5);
     this.init();
     String reponse = "";
     String modele = "";
-    
+
     System.out.println("vous avez choisi le mode défenseur");
     System.out.println("vous avez cette fois le rôle de défenseur vous devez saisir une combinaison de " + GestionConfiguration.tailleCode +
       " chiffre(s) \r\nL'intelligence artificielle de l’ordinateur doit faire une proposition d’une combinaison de X chiffres (c’est le rôle attaquant).");

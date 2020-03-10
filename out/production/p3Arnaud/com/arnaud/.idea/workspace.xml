@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c72b146-2a02-45b4-99c7-0c17a1d08503" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/artifacts/p3Arnaud_jar/p3Arnaud.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../out/artifacts/p3Arnaud_jar/p3Arnaud.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/p3Arnaud/com/arnaud/Poo/GestionConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../out/production/p3Arnaud/com/arnaud/Poo/GestionConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/p3Arnaud/com/arnaud/Poo/GestionJeu.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../out/production/p3Arnaud/com/arnaud/Poo/GestionJeu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/p3Arnaud/com/arnaud/Poo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../out/production/p3Arnaud/com/arnaud/Poo/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/p3Arnaud/com/arnaud/Poo/modes/Defenseur.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../out/production/p3Arnaud/com/arnaud/Poo/modes/Defenseur.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../out/production/p3Arnaud/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../out/production/p3Arnaud/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../game.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../game.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poo/GestionConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/poo/GestionConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poo/GestionJeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/poo/GestionJeu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/poo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poo/modes/Defenseur.java" beforeDir="false" afterPath="$PROJECT_DIR$/poo/modes/Defenseur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../resources/config.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1YwDXRoejPksXBzcDLDZxHpSyE1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c72b146-2a02-45b4-99c7-0c17a1d08503" name="Default Changelist" comment="" />
+      <created>1583844801346</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583844801346</updated>
+    </task>
+    <servers />
+  </component>
+</project>
