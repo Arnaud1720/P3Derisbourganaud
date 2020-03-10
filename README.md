@@ -1,24 +1,33 @@
 # Projet3_EtatFinal
-		Lancer un .Jar via invite de commande cmd 
-le fichier jar ce trouve dans : projet3 DA\out\artifacts\p3Arnaud_jar
-Télécharger un jdk
-Tout d’abord vous devez télécharger la dernière version du JDK actuel  
-Une fois le jdk installer, vous devez modifier vous variable d’environnement pour cela aller dans votre menu démarrer et écrivez « environnement »  un menu appeler «  modifier vos variable d’environnement » sera visible dans le  menu. 
+	-compiler le projet via l'invite de commande CMD
+- Lancer vÃ´tre invite de commande(CMD) en mode administrateur
+- avec la commande cd rendez vous dans le rÃ©pertoire src
+- une fois dans le rÃ©pertoire src excuter les commandes suivantes : javac Main.java  pour complier la classe Main. Puis la commande java Main pour lancer la classe 
+c excuter les commandes suivantes : javac Main.java  pour complier la classe Main. Puis la commande java Main pour lancer la classe 
 
-cliquer sur « paramètre système avancé » « variable d’environnement »  si vous n’avez pas de variable « PATH » crée en une.  Dans Variable Système crée une variable JAVA_HOME, et ciblé le lien vers le JDK 
+	- lancer le projet dans l'IDE	
+pour lancer le projet depuis votre IDE ouvret ****/****/****/projet3-DA puis lancer la classe Main (Maj+F10) sur intellij 
+
+		Lancer un .Jar via invite de commande cmd 
+le fichier jar ce trouve dansÂ : projet3 DA\out\artifacts\p3Arnaud_jar
+TÃ©lÃ©charger un jdk
+Tout dâ€™abord vous devez tÃ©lÃ©charger la derniÃ¨re version du JDK actuel  
+Une fois le jdk installer, vous devez modifier vous variable dâ€™environnement pour cela aller dans votre menu dÃ©marrer et Ã©crivez Â«Â environnementÂ Â»  un menu appeler Â«Â  modifier vos variable dâ€™environnementÂ Â» sera visible dans le  menu. 
+
+cliquer sur Â« paramÃ¨tre systÃ¨me avancÃ©Â Â» Â«Â variable dâ€™environnementÂ Â»  si vous nâ€™avez pas de variable Â«Â PATHÂ Â» crÃ©e en une.  Dans Variable SystÃ¨me crÃ©e une variable JAVA_HOME, et ciblÃ© le lien vers le JDK 
  
 
 
 Une fois cela vous vous pouvez tout fermer . 
-Exécuter un jar en ligne de commande
-Java peut être appelé depuis l’invite de commandes pour exécuter un JAR.
+ExÃ©cuter un jar en ligne de commande
+Java peut Ãªtre appelÃ© depuis lâ€™invite de commandes pour exÃ©cuter un JAR.
 La syntaxe est la suivante :
 java -jar <jar-file-name>.jar
 
-- Ouvrez votre menu démarrer en mode administrateur 
+- uvrez votre menu dÃ©marrer en mode administrateur 
 - Excutuer la commande cd pour aller vers le chemin du fichier .Jar 
-- Excuter la commande : java -jar <jar-file-name>.jar
+- Excuter la commandeÂ : java -jar <jar-file-name>.jar
 
 
-Pour des information plus d‚taill‚, le document ®ÿProc‚dure pour lancer le Programmeÿ¯ est a disposition 
-# P3Derisbourganaud
+Pour des information plus dâ€štaillâ€š, le document Â®Ã¿Procâ€šdure pour lancer le ProgrammeÃ¿Â¯ est a disposition 
+
