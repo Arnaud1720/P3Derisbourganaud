@@ -3,10 +3,11 @@
 - Lancer vôtre invite de commande(CMD) en mode administrateur
 - avec la commande cd rendez vous dans le répertoire src
 - une fois dans le répertoire src excuter les commandes suivantes : javac Main.java  pour complier la classe Main. Puis la commande java Main pour lancer la classe 
-c excuter les commandes suivantes : javac Main.java  pour complier la classe Main. Puis la commande java Main pour lancer la classe 
+ 
 
 	- lancer le projet dans l'IDE	
 pour lancer le projet depuis votre IDE ouvret ****/****/****/projet3-DA puis lancer la classe Main (Maj+F10) sur intellij 
+
 
 		Lancer un .Jar via invite de commande cmd 
 le fichier jar ce trouve dans : projet3 DA\out\artifacts\p3Arnaud_jar
